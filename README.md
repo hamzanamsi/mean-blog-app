@@ -39,6 +39,8 @@ JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=24h
 FRONTEND_URL=http://localhost:4200
 ADMIN_CODE=admin_code
+
+# 
 **frontend**
  cd frontend add .env file : 
 apiUrl =http://localhost:5000/api

@@ -31,6 +31,7 @@ npm install
 cd ../frontend
 npm install
 # 3. **Set up environment variables**
+**backend**
   cd backend add .env file : 
 MONGO_URI=mongodb://admin:adminpassword@localhost:27017/blogdb?authSource=admin
 PORT=5000
@@ -38,6 +39,7 @@ JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=24h
 FRONTEND_URL=http://localhost:4200
 ADMIN_CODE=admin_code
+**frontend**
  cd frontend add .env file : 
 apiUrl =http://localhost:5000/api
 ADMIN_CODE=admin_code
